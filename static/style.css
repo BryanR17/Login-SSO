@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #cce0f2;
+    align-items: center;
+    background: linear-gradient(45deg, #7fa8e3, #175aac, #010a17);
+}
+body > h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+body > p{
+    margin-bottom: 20px;
+}
+body > .email{
+    font-weight: bold;
+}
+body > a{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 3px solid #cce0f2;
+    color: #cce0f2;
+    transition: all .3s ease-in-out;
+}
+body > a:hover{
+    background-color: #cce0f2;
+    color: #2f70c1;
+}
+.login-container{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cce0f2;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.425);  
+}
+.login-container .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-container h1{
+    font-size: 50px;
+    text-align: center;
+    color: #2f70c1;
+}
+.login-container p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1c4475;
+}
+.login-container form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.login-container form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #2f70c1;
+    border-radius: 15px;
+    background-color: transparent;
+    outline: none;
+    color: #1c4475;
+}
+.login-container form button{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-color: #1c4475;
+    color: #cce0f2;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+.login-container form button:hover{
+    background-color: #2f70c1;
+}
+.login-container a{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #fff;
+    border: 3px solid #2f70c1;
+    border-radius: 15px;
+    color: #2f70c1;
+    transition: all ease .3s;
+}
+.login-container a:hover{
+    background-color: #2f70c1;
+    color: #fff
+}
+.login-container a > i{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+
